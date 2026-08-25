@@ -86,11 +86,24 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Divider & Copyright section strictly matching screenshot */}
-        <div className="mt-12 border-t border-white/10 pt-8 space-y-3">
-          <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} EvoTraining Performance. All rights reserved.
-          </p>
+        {/* Divider & Copyright section */}
+        <div className="mt-12 border-t border-white/10 pt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="space-y-1.5">
+            <p className="text-xs text-white/50">
+              © {new Date().getFullYear()} EvoTraining Performance. All rights reserved.
+            </p>
+            <p className="text-xs text-white/50">
+              Design &amp; Developed by{" "}
+              <a
+                href="https://kyptronix.us"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-white/80 underline underline-offset-4 transition-colors hover:text-white"
+              >
+                Kyptronix LLP
+              </a>
+            </p>
+          </div>
           <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-[#8E7D5B]">
             PERFORMANCE. DISCIPLINE. PROGRESS.
           </p>
