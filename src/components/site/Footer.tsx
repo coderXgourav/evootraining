@@ -14,6 +14,7 @@ export function Footer() {
                 Performance
               </span>
             </p>
+
             <p className="max-w-sm text-sm text-white/60 leading-relaxed">
               Elite coaching designed to develop stronger, smarter and more confident athletes.
             </p>
